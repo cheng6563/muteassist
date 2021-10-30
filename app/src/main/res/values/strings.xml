@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Mute Assist</string>
+    <string name="toast_grant">Please grant \"Do Not Disturb access\" permission</string>
+</resources>

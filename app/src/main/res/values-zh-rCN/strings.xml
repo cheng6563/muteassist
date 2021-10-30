@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">静音助手</string>
+    <string name="toast_grant">请授予 \"请勿打扰\" 权限</string>
+</resources>
