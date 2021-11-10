@@ -23,7 +23,7 @@ public class MyApplication extends Application {
         }
         SharedPreferences mSettings = context.getSharedPreferences(getClass().getName(), 0);
         long lastHandleTime = mSettings.getLong(LAST_HANDLE_TIME, 0);
-        if (System.currentTimeMillis() > lastHandleTime + 1000) {
+        if (System.currentTimeMillis() > lastHandleTime + 1500) {
             SharedPreferences.Editor edit = mSettings.edit();
             edit.putLong(LAST_HANDLE_TIME, System.currentTimeMillis());
             edit.apply();
