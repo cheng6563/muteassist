@@ -42,21 +42,6 @@
             android:name="com.google.android.actions"
             android:resource="@xml/interaction_service" />
 
-        <service
-            android:name=".MyAssistantService"
-            android:exported="true"
-            android:permission="android.permission.BIND_VOICE_INTERACTION">
-            <meta-data
-                android:name="android.voice_interaction"
-                android:resource="@xml/interaction_service" />
-
-            <intent-filter>
-                <action android:name="android.service.voice.VoiceInteractionService" />
-            </intent-filter>
-        </service>
-        <service
-            android:name=".MyAssistantSessionService"
-            android:permission="android.permission.BIND_VOICE_INTERACTION" />
     </application>
 
 </manifest>
